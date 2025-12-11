@@ -1,0 +1,25 @@
+CREATE TABLE AERONAVE (
+    codigo_ocorrencia2 INTEGER PRIMARY KEY,
+    aeronave_matricula VARCHAR(10),
+    aeronave_operador_categoria VARCHAR(100),
+    aeronave_tipo_veiculo VARCHAR(100),
+    aeronave_fabricante VARCHAR(100),
+    aeronave_modelo VARCHAR(100),
+    aeronave_tipo_icao VARCHAR(10),
+    aeronave_motor_tipo VARCHAR(100),
+    aeronave_motor_quantidade VARCHAR(100),
+    aeronave_pmd NUMERIC(10, 2), -- Peso Máximo de Decolagem
+    aeronave_pmd_categoria VARCHAR(100),
+    aeronave_assentos INTEGER,
+    aeronave_ano_fabricacao INTEGER,
+    aeronave_pais_fabricante VARCHAR(100),
+    aeronave_pais_registro VARCHAR(100),
+    aeronave_registro_categoria VARCHAR(100),
+    aeronave_registro_segmento VARCHAR(100),
+    aeronave_voo_origem VARCHAR(100),
+    aeronave_voo_destino VARCHAR(100),
+    aeronave_fase_operacao VARCHAR(100),
+    aeronave_tipo_operacao VARCHAR(100),
+    aeronave_nivel_dano VARCHAR(100),
+    aeronave_fatalidades_total INTEGER
+);
